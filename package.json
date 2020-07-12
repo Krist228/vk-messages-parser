@@ -1,0 +1,15 @@
+{
+  "name": "vk-messages-parser",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "bin": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "prompt-sync": "^4.2.0",
+    "vk-io": "^3.2.0"
+  }
+}
