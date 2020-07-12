@@ -5,10 +5,12 @@
   "main": "main.js",
   "bin": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "build": "pkg . -t node10-win-x86,node10-linux,node10-macos"
   },
   "dependencies": {
     "path": "^0.12.7",
+    "pkg": "^4.4.9",
     "prompt-sync": "^4.2.0",
     "vk-io": "^3.2.0"
   }
