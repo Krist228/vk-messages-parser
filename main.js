@@ -77,11 +77,9 @@ async function main() {
   }
 
   console.log('Готово!');
-  prompt();
 
 }
 
-main().catch(e => {
-  console.error(e);
-  prompt();
-});
+main()
+  .catch(console.error)
+  .finally(prompt);
